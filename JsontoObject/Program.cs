@@ -16,7 +16,7 @@ namespace JsontoObject
             string json = @"{  ""kind"": ""fusiontables#sqlresponse"",  ""columns"": [   ""MMM_CLASS""  ],  ""rows"": [   [    ""4""   ]  ] }";
             Console.WriteLine(json);
             JsonObject jsonboj=  JsonConvert.DeserializeObject<JsonObject>(json);
-            Console.WriteLine(jsonboj.rows[0][0]);
+            Console.WriteLine(jsonboj.rows[0][0]); 
         }
     }
 }
