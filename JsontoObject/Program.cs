@@ -11,7 +11,7 @@ namespace JsontoObject
     {
         static void Main(string[] args)
         {
-            /*use this to get properties: http://json2csharp.com/           */
+            /*use this to get properties: http://json2csharp.com/             */
 
             string json = @"{  ""kind"": ""fusiontables#sqlresponse"",  ""columns"": [   ""MMM_CLASS""  ],  ""rows"": [   [    ""4""   ]  ] }";
             Console.WriteLine(json);
